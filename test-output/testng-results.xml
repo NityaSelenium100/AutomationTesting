@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="196101" started-at="2020-06-02T10:18:08Z" finished-at="2020-06-02T10:21:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="196101" started-at="2020-06-02T10:18:08Z" finished-at="2020-06-02T10:21:24Z">
+      <class name="importantSeleniumConcepts.DisableImages">
+        <test-method status="PASS" signature="ImageDisable()[pri:0, instance:importantSeleniumConcepts.DisableImages@59fa1d9b]" name="ImageDisable" duration-ms="195829" started-at="2020-06-02T10:18:08Z" finished-at="2020-06-02T10:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImageDisable -->
+      </class> <!-- importantSeleniumConcepts.DisableImages -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
