@@ -30,6 +30,10 @@ public class DisableImages {
 		driver=new ChromeDriver(options);
 		driver.get("http://amazon.com");
 		
+		System.out.println("Done");
+		
+		
+		
 		
 		
 	}
