@@ -16,7 +16,7 @@ public class HowManyAnchorTags {
 	
 	@Test
 	public void Test() {
-		
+		// code for get all anchor links from a site.
 		WebDriverManager.chromedriver().setup();
 		
 		driver=new ChromeDriver();
