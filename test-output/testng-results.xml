@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="196101" started-at="2020-06-02T10:18:08Z" finished-at="2020-06-02T10:21:24Z">
+  <suite name="Default suite" duration-ms="127946" started-at="2020-06-05T11:06:38Z" finished-at="2020-06-05T11:08:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="196101" started-at="2020-06-02T10:18:08Z" finished-at="2020-06-02T10:21:24Z">
-      <class name="importantSeleniumConcepts.DisableImages">
-        <test-method status="PASS" signature="ImageDisable()[pri:0, instance:importantSeleniumConcepts.DisableImages@59fa1d9b]" name="ImageDisable" duration-ms="195829" started-at="2020-06-02T10:18:08Z" finished-at="2020-06-02T10:21:24Z">
+    <test name="Default test" duration-ms="127946" started-at="2020-06-05T11:06:38Z" finished-at="2020-06-05T11:08:46Z">
+      <class name="importantSeleniumConcepts.HowManyAnchorTags">
+        <test-method status="PASS" signature="Test()[pri:0, instance:importantSeleniumConcepts.HowManyAnchorTags@59fa1d9b]" name="Test" duration-ms="127809" started-at="2020-06-05T11:06:38Z" finished-at="2020-06-05T11:08:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ImageDisable -->
-      </class> <!-- importantSeleniumConcepts.DisableImages -->
+        </test-method> <!-- Test -->
+      </class> <!-- importantSeleniumConcepts.HowManyAnchorTags -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
