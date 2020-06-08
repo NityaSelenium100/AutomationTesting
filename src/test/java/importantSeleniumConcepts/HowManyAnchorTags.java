@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -15,7 +16,7 @@ public class HowManyAnchorTags {
 	
 	public WebDriver driver;
 	
-	@Test
+	@Test()
 	public void Test() {
 		// code for get all anchor links from a site.
 		WebDriverManager.chromedriver().setup();
@@ -31,8 +32,7 @@ public class HowManyAnchorTags {
 			System.out.println(element.getText());
 		}
 		
-		WebElement elemengt=driver.findElement(By.xpath(""));
-		Select s=new Select(elemengt);
+		Assert.assertTrue(false);
 		
 		
 		
