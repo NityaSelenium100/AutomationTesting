@@ -35,6 +35,8 @@ public class DisableImages {
 
 		System.out.println("Done");
 		
+		driver.quit();
+		
 		
 		
 		

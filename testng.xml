@@ -5,12 +5,16 @@
 <listeners>   
 
 <listener class-name="retry.MyTransformer"/>
+<listener class-name="com.qa.reportNG.ExtentReportNG"/>
 
 </listeners>
 
   <test thread-count="5" name="Test">
     <classes>
       <class name="importantSeleniumConcepts.DisableImages"/>
+      <class name="importantSeleniumConcepts.DownloadToDesiredFolder"/>
+      <class name="importantSeleniumConcepts.HowManyAnchorTags"/>
+       
        
       
     </classes>

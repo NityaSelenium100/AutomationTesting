@@ -17,7 +17,7 @@ public class HowManyAnchorTags {
 	public WebDriver driver;
 	
 	@Test()
-	public void Test() {
+	public void AnchorTagsCount() {
 		// code for get all anchor links from a site.
 		WebDriverManager.chromedriver().setup();
 		
@@ -32,9 +32,9 @@ public class HowManyAnchorTags {
 			System.out.println(element.getText());
 		}
 		
-		Assert.assertTrue(false);
 		
 		
+		driver.quit();
 		
 	}
 

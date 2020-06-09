@@ -12,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -66,9 +67,17 @@ public class DownloadToDesiredFolder {
 			System.out.println(eachfile);
 			Assert.assertTrue(eachfile.length() > 0);
 		}
+		
+		
 
 		
 		
+	}
+	
+	@AfterMethod
+	public void teardown() {
+		
+		driver.quit();
 	}
 
 }
