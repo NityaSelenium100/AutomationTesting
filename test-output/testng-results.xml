@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="138458" started-at="2020-06-09T15:52:36Z" finished-at="2020-06-09T15:54:55Z">
+  <suite name="Default suite" duration-ms="24157" started-at="2020-06-10T17:20:48Z" finished-at="2020-06-10T17:21:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="138458" started-at="2020-06-09T15:52:36Z" finished-at="2020-06-09T15:54:55Z">
+    <test name="Default test" duration-ms="24157" started-at="2020-06-10T17:20:48Z" finished-at="2020-06-10T17:21:12Z">
       <class name="importantSeleniumConcepts.DownloadToDesiredFolder">
-        <test-method status="PASS" signature="setup()[pri:0, instance:importantSeleniumConcepts.DownloadToDesiredFolder@6295d394]" name="setup" is-config="true" duration-ms="25189" started-at="2020-06-09T15:53:40Z" finished-at="2020-06-09T15:54:05Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:importantSeleniumConcepts.DownloadToDesiredFolder@6a4f787b]" name="setup" is-config="true" duration-ms="18216" started-at="2020-06-10T17:20:48Z" finished-at="2020-06-10T17:21:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DownloadFile()[pri:0, instance:importantSeleniumConcepts.DownloadToDesiredFolder@6295d394]" name="DownloadFile" duration-ms="6599" started-at="2020-06-09T15:54:05Z" finished-at="2020-06-09T15:54:12Z">
+        <test-method status="PASS" signature="DownloadFile()[pri:0, instance:importantSeleniumConcepts.DownloadToDesiredFolder@6a4f787b]" name="DownloadFile" duration-ms="4539" started-at="2020-06-10T17:21:06Z" finished-at="2020-06-10T17:21:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DownloadFile -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:importantSeleniumConcepts.DownloadToDesiredFolder@6295d394]" name="teardown" is-config="true" duration-ms="1132" started-at="2020-06-09T15:54:12Z" finished-at="2020-06-09T15:54:13Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:importantSeleniumConcepts.DownloadToDesiredFolder@6a4f787b]" name="teardown" is-config="true" duration-ms="1298" started-at="2020-06-10T17:21:11Z" finished-at="2020-06-10T17:21:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- importantSeleniumConcepts.DownloadToDesiredFolder -->
-      <class name="importantSeleniumConcepts.DisableImages">
-        <test-method status="PASS" signature="ImageDisable()[pri:0, instance:importantSeleniumConcepts.DisableImages@143640d5]" name="ImageDisable" duration-ms="63432" started-at="2020-06-09T15:52:36Z" finished-at="2020-06-09T15:53:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ImageDisable -->
-      </class> <!-- importantSeleniumConcepts.DisableImages -->
-      <class name="importantSeleniumConcepts.HowManyAnchorTags">
-        <test-method status="PASS" signature="AnchorTagsCount()[pri:0, instance:importantSeleniumConcepts.HowManyAnchorTags@475e586c]" name="AnchorTagsCount" duration-ms="41690" started-at="2020-06-09T15:54:13Z" finished-at="2020-06-09T15:54:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AnchorTagsCount -->
-      </class> <!-- importantSeleniumConcepts.HowManyAnchorTags -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
