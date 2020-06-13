@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="127946" started-at="2020-06-05T11:06:38Z" finished-at="2020-06-05T11:08:46Z">
+  <suite name="Default suite" duration-ms="24157" started-at="2020-06-10T17:20:48Z" finished-at="2020-06-10T17:21:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="127946" started-at="2020-06-05T11:06:38Z" finished-at="2020-06-05T11:08:46Z">
-      <class name="importantSeleniumConcepts.HowManyAnchorTags">
-        <test-method status="PASS" signature="Test()[pri:0, instance:importantSeleniumConcepts.HowManyAnchorTags@59fa1d9b]" name="Test" duration-ms="127809" started-at="2020-06-05T11:06:38Z" finished-at="2020-06-05T11:08:46Z">
+    <test name="Default test" duration-ms="24157" started-at="2020-06-10T17:20:48Z" finished-at="2020-06-10T17:21:12Z">
+      <class name="importantSeleniumConcepts.DownloadToDesiredFolder">
+        <test-method status="PASS" signature="setup()[pri:0, instance:importantSeleniumConcepts.DownloadToDesiredFolder@6a4f787b]" name="setup" is-config="true" duration-ms="18216" started-at="2020-06-10T17:20:48Z" finished-at="2020-06-10T17:21:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test -->
-      </class> <!-- importantSeleniumConcepts.HowManyAnchorTags -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DownloadFile()[pri:0, instance:importantSeleniumConcepts.DownloadToDesiredFolder@6a4f787b]" name="DownloadFile" duration-ms="4539" started-at="2020-06-10T17:21:06Z" finished-at="2020-06-10T17:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadFile -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:importantSeleniumConcepts.DownloadToDesiredFolder@6a4f787b]" name="teardown" is-config="true" duration-ms="1298" started-at="2020-06-10T17:21:11Z" finished-at="2020-06-10T17:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- importantSeleniumConcepts.DownloadToDesiredFolder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
