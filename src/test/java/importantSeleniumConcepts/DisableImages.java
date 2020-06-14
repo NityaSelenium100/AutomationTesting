@@ -15,7 +15,8 @@ public class DisableImages {
 	@Test
 	public void ImageDisable() {
 		
-		WebDriverManager.chromedriver().setup();
+		
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
 		
 		ChromeOptions options=new ChromeOptions();
 		
