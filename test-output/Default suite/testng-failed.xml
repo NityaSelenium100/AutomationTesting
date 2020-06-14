@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="importantSeleniumConcepts.HowManyAnchorTags">
+      <class name="importantSeleniumConcepts.DisableImages">
         <methods>
-          <include name="Test"/>
+          <include name="ImageDisable"/>
         </methods>
-      </class> <!-- importantSeleniumConcepts.HowManyAnchorTags -->
+      </class> <!-- importantSeleniumConcepts.DisableImages -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
