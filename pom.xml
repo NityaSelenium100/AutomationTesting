@@ -65,7 +65,7 @@
           <version>2.12</version>
           <configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>AllTest.xml</suiteXmlFile>
+						<suiteXmlFile>DownloadToDesiredFolderTest.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					 </configuration>
         </plugin>
