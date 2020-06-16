@@ -64,8 +64,15 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.12</version>
           <configuration>
+          <systemPropertyVariables>
+          
+          <userName>${DuserName}</userName>
+          <password>${Dpassword}</password>
+          <url>${Durl}</url>
+          
+          </systemPropertyVariables>
 					<suiteXmlFiles>
-						<suiteXmlFile>DownloadToDesiredFolderTest.xml</suiteXmlFile>
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 					 </configuration>
         </plugin>
