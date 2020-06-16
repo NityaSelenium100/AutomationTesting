@@ -29,7 +29,7 @@ public class DisableImages {
 		options.setExperimentalOption("prefs", prefs);
 		
 		driver=new ChromeDriver(options);
-		driver.get("http://amazon.com");
+		driver.get(System.getProperty("url"));
 		
 
 		
