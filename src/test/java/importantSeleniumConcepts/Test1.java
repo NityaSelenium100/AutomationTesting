@@ -1,8 +1,10 @@
 package importantSeleniumConcepts;
 
-public class Test {
+import org.testng.annotations.Test;
+
+public class Test1 {
 	
-	@org.testng.annotations.Test
+	@Test
 	public void JenkinsTest() {
 		
 		System.out.println(System.getProperty("userName"));
