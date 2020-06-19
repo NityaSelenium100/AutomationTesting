@@ -66,9 +66,9 @@
           <configuration>
           <systemPropertyVariables>
           
-          <userName>${DuserName}</userName>
-          <password>${Dpassword}</password>
-          <url>${Durl}</url>
+          <userName>Nitya</userName>
+          <password>Selenium</password>
+          <url>www.amazon.com</url>
           
           </systemPropertyVariables>
 					<suiteXmlFiles>
