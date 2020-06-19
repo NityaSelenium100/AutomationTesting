@@ -8,9 +8,9 @@ public class Test1 {
 	public void JenkinsTest() {
 		
 		
-		System.out.println(System.getProperty("password"));
-		System.out.println(System.getProperty("url"));
-		System.out.println(System.getProperty("username"));
+		System.out.println("password is " + System.getProperty("password"));
+		System.out.println("url is " + System.getProperty("url"));
+		System.out.println("username is " + System.getProperty("username"));
 	}
 	
 
