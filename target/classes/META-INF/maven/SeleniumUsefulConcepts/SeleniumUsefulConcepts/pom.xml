@@ -69,6 +69,8 @@
           <username>${username}</username>
           <password>${password}</password>
           <url>${url}</url>
+         <proddata>${proddata}</proddata>
+		   <predata>${predata}</predata>
           
           </systemPropertyVariables>
 					<suiteXmlFiles>
