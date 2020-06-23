@@ -37,11 +37,15 @@ public class DisableImages {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get(url);
+			
+			System.out.println("Without Image");
 		} else {
 
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get(url);
+			
+			System.out.println("Without Image");
 
 		}
 
