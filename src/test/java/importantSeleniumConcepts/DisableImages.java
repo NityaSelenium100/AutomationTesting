@@ -22,7 +22,7 @@ public class DisableImages {
 
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
 
-			ChromeOptions options = new ChromeOptions();//Nitya
+			ChromeOptions options = new ChromeOptions();
 
 			HashMap<String, Object> images = new HashMap<String, Object>();
 			images.put("images", 2);
@@ -32,7 +32,7 @@ public class DisableImages {
 
 			options.setExperimentalOption("prefs", prefs);
 
-			driver = new ChromeDriver(options);//Nitya
+			driver = new ChromeDriver(options);
 			
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
