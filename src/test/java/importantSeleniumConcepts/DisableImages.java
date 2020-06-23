@@ -12,6 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class DisableImages {
 
 	String isImageRequired = System.getProperty("isImageRequired");
+	String url=System.getProperty("url");
 	WebDriver driver;
 
 	@Test
@@ -32,11 +33,15 @@ public class DisableImages {
 			options.setExperimentalOption("prefs", prefs);
 
 			driver = new ChromeDriver(options);
+			
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
+			driver = new ChromeDriver();
+			driver.get(url);
 		} else {
 
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
-			driver.get("http://amazon.com");
+			driver.get(url);
 
 		}
 
