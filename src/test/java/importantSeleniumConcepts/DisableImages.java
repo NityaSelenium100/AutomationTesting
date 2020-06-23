@@ -17,7 +17,7 @@ public class DisableImages {
 	@Test
 	public void ImageDisable() {
 
-		if (isImageRequired.equalsIgnoreCase("y")) {
+		if (isImageRequired.equalsIgnoreCase("n")) {
 
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
 
