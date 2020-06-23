@@ -10,39 +10,40 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DisableImages {
-	
+
+	String isImageRequired = System.getProperty("isImageRequired");
 	WebDriver driver;
+
 	@Test
 	public void ImageDisable() {
-		
-		
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
-		
-		ChromeOptions options=new ChromeOptions();
-		
-		HashMap<String, Object> images=new HashMap<String, Object>();
-		images.put("images", 2);
-		
-		HashMap<String, Object> prefs=new HashMap<String, Object>();
-		prefs.put("profile.default_content_setting_values", images);
-		
-		options.setExperimentalOption("prefs", prefs);
-		
-		driver=new ChromeDriver(options);
-		driver.get("http://amazon.com");
-		
 
-		
+		if (isImageRequired.equalsIgnoreCase("y")) {
+
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
+
+			ChromeOptions options = new ChromeOptions();
+
+			HashMap<String, Object> images = new HashMap<String, Object>();
+			images.put("images", 2);
+
+			HashMap<String, Object> prefs = new HashMap<String, Object>();
+			prefs.put("profile.default_content_setting_values", images);
+
+			options.setExperimentalOption("prefs", prefs);
+
+			driver = new ChromeDriver(options);
+		} else {
+
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
+			driver = new ChromeDriver();
+			driver.get("http://amazon.com");
+
+		}
 
 		System.out.println("Done");
-		
-		driver.quit();
-		
-		
-		
-		
 
-		
+		driver.quit();
+
 	}
 
 }

@@ -66,11 +66,12 @@
           <configuration>
           <systemPropertyVariables>
           
-          <username>${username}</username>
+          
           <password>${password}</password>
           <url>${url}</url>
          <proddata>${proddata}</proddata>
 		   <predata>${predata}</predata>
+		   <isImageRequired>${isImageRequired}</isImageRequired>
           
           </systemPropertyVariables>
 					<suiteXmlFiles>
