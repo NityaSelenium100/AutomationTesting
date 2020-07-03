@@ -20,15 +20,11 @@ public class DisableImages {
 
 		if (isImageRequired.equalsIgnoreCase("n")) {
 
-<<<<<<< HEAD
+
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");//Nitya
 
 			ChromeOptions options = new ChromeOptions();//Soumya
-=======
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");//Nitya Ranjan Behera
 
-			ChromeOptions options = new ChromeOptions();//Soumya Ranjan Behera
->>>>>>> master
 
 			HashMap<String, Object> images = new HashMap<String, Object>();
 			images.put("images", 2);
