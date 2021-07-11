@@ -49,17 +49,17 @@ public class ArraylistTraverse {
 			System.out.println(Listitr.previous());
 		}
 		
-		System.out.println("*****Java 8 lamda concept and for each remaining******");
+		//System.out.println("*****Java 8 lamda concept and for each remaining******");
 		
-		Iterator<String>itr1=books.iterator();
-		itr1.forEachRemaining(eachbook ->{
-			System.out.println(eachbook);
-		});
+		//Iterator<String>itr1=books.iterator();
+		//itr1.forEachRemaining(eachbook ->{
+			//System.out.println(eachbook);
+		//});
 		
-		System.out.println("***** java 8 lamda concept and foreach******");
-		books.forEach(each ->{
-			System.out.println(each);
-		});
+		//System.out.println("***** java 8 lamda concept and foreach******");
+		//books.forEach(each ->{
+			//System.out.println(each);
+		//});
 		
 	}
 
